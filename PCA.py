@@ -65,3 +65,20 @@ if __name__ == '__main__' :
     random_data = np.random.rand(100, 3)
     data_mean = np.mean(random_data, axis=0)
     pca_operation(random_data, data_mean)
+
+
+
+''' sklearn.decomposition 라이브러리를 활용해서 PCA를 사용하는 방법
+
+from sklearn.decomposition import PCA
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(42)
+data = np.random.rand(100, 3)
+
+pca = PCA(n_components=2)
+
+pca_result = pca.fit_transform(data)
+
+'''
