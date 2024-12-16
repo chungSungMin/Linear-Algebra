@@ -18,3 +18,4 @@
 12. Least Square <br>
 13. eigen value & vector <br>
 14. eigen decomposition <br>
+15. Lagrange Multiplier <br>
