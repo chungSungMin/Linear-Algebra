@@ -62,6 +62,7 @@ def pca_operation(random_data, data_mean):
 
 
 if __name__ == '__main__' : 
+    np.random.seed(42)
     random_data = np.random.rand(100, 3)
     data_mean = np.mean(random_data, axis=0)
     pca_operation(random_data, data_mean)
